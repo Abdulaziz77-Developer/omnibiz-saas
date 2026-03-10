@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\OmniBiz.Core\OmniBiz.Core.csproj" />
+    <ProjectReference Include="..\OmniBiz.Application\OmniBiz.Application.csproj" />
+    <ProjectReference Include="..\OmniBiz.Infrastructure\OmniBiz.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
